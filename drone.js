@@ -2,7 +2,7 @@
 const arDrone = require('ar-drone');
 const readline = require('readline');
 const HID = require('node-hid');
-const parseButton = require('./button.js');
+const parseButton = require('./button-parse.js');
 
 // Create drone instance.
 const client = arDrone.createClient();
